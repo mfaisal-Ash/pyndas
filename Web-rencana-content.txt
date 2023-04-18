@@ -1,5 +1,9 @@
 Rencana Konten web
-- PHP
-- HTML
-- vlogs
+- membuat web portofolio
+- membuat web perusahaan/ organisasi yang demo
+- membuat web menggunakan cara API REST, microservice
 - interviews
+
+
+
+proses pembelajaran = semua bidang untuk dipelajari supaya terbuka
