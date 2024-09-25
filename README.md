@@ -1,2 +1,2 @@
-# Web-resolusi
-Repository untuk menyimpain data Web kedepannya
+# PYNDAS
+Pembelajaran membuat Sebuah Library Python
