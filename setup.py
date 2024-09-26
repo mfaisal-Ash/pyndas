@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='pyndas',
     version='0.0.2',
-    packages=['pyndas'],  # Pastikan ini sesuai dengan direktori yang ada
+    packages=find_packages(),  # Pastikan ini sesuai dengan direktori yang ada
     install_requires=['pymongo'],  # Tambahkan dependencies yang diperlukan
     description='Library for MongoDB data transformation and redundancy removal',
     author='Mfaidiq',
@@ -21,7 +21,6 @@ setup(
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
-    'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
     'Programming Language :: Python :: 3.12',
     ],
