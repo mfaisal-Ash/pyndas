@@ -11,7 +11,7 @@ setup(
   version = '0.0.1',
   license='MIT',
   description = 'Library ini digunakan untuk memudahkan transformasi data',
-  long_description=long_description,
+  # long_description=long_description,
   author = 'MFaidiq',
   author_email = 'faisalsidiq14@gmail.com',
   url = 'https://github.com/mfaisal-Ash/pyndas',
