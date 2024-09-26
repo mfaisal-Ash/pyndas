@@ -9,7 +9,6 @@ setup(
   name = 'pyndas',
   packages = ['pyndas'],
   version = '0.0.1',
-  packages = find_packages(),
   license='MIT',
   description = 'Library ini digunakan untuk memudahkan transformasi data',
   long_description=long_description,
