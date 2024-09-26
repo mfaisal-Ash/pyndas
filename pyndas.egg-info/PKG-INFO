@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pyndas
-Version: 0.1
+Version: 0.0.2
 Summary: Library for MongoDB data transformation and redundancy removal
 Home-page: https://github.com/mfaisal-Ash/pyndas
 Download-URL: 
