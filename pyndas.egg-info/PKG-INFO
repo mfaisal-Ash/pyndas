@@ -3,7 +3,7 @@ Name: pyndas
 Version: 0.0.3
 Summary: Library for MongoDB data transformation and redundancy removal
 Home-page: https://github.com/mfaisal-Ash/pyndas
-Download-URL: 
+Download-URL: https://github.com/mfaisal-Ash/pyndas/archive/refs/tags/v0.0.3.tar.gz
 Author: Mfaidiq
 Author-email: faisalsidiq14@gmail.com
 Keywords: pyndas,py-ndas
@@ -18,7 +18,6 @@ Classifier: Programming Language :: Python :: 3.6
 Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
 Classifier: Programming Language :: Python :: 3.9
-Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11
 Classifier: Programming Language :: Python :: 3.12
 License-File: LICENSE
