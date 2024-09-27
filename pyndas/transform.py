@@ -1,20 +1,17 @@
 class DataTransform:
-    def flatten_data(self, data):
-        flat_data = {}
-        for record in data:
-            flat_data = self._flatten(record)
-            flat_data.append(flat_record)
-        return flat_data
-
-        for key, value in data.items():
-            if isinstance(value, dict):
-                flat_data.update(self.flatten_data(value))
-            else:
-                flat_data[key] = value
-        return flat_data
+    def __init__(self):
+        pass
     
+    def flatten_data(self, data):
+        """Flatten a list of dictionaries."""
+        flat_data_list = []
+        for record in data:
+            flat_record = self._flatten(record)
+            flat_data_list.append(flat_record)
+        return flat_data_list
+
     def _flatten(self, record, parent_key='', sep='_'):
-        """nested dictionary."""
+        """Recursively flatten a nested dictionary."""
         items = []
         for k, v in record.items():
             new_key = f"{parent_key}{sep}{k}" if parent_key else k
@@ -28,6 +25,7 @@ class DataTransform:
         return dict(items)
 
     def remove_duplicates(self, data):
+        """Remove duplicate records from a list of dictionaries."""
         seen = set()
         unique_data = []
         for record in data:
@@ -36,4 +34,18 @@ class DataTransform:
                 seen.add(record_tuple)
                 unique_data.append(record)
         return unique_data
-    
+
+    def transform_data(self, data):
+        """Flatten data and remove duplicates."""
+        if not data:
+            print("No data found to transform")
+            return []
+        
+        print("Flattening data...")
+        flattened_data = self.flatten_data(data)
+        
+        print("Removing duplicates...")
+        unique_data = self.remove_duplicates(flattened_data)
+        
+        print(f"Transformation complete: {len(unique_data)} unique records found")
+        return unique_data

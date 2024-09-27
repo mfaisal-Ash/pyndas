@@ -18,7 +18,8 @@ Pemanggilan fungsi bisa dilakukan dengan import sederhana terhadap function yang
 import pyndas
 
 ```
-Berikut secara gambaran dari nested array dari sudut pandang format json
+Berikut secara gambaran dari nested array dari sudut pandang .json
+
 ```json
 {
     "_id": {
@@ -67,7 +68,7 @@ Berikut secara gambaran dari nested array dari sudut pandang format json
     }
   }
 
-  **OR**
+  OR
 
 {
   "_id": {
@@ -230,14 +231,18 @@ Berikut secara gambaran dari nested array dari sudut pandang format json
 }
 
 ```
+
+Harapan dari library ini untuk melakukan transformasi data dengan waktu yang singkat
+
+
 ### Fungsi Tersedia
 1. RemoveRedudancy-data   
 2. TransformData-nested_array 
 
 ## Changelog:
-### v0.1
+### v0.0.3
 library masih permulaan, 
-1. 
+1. percobaan kalkulasi dari proses melakukan transformasi data
 2. 
 
 ## Stats

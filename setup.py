@@ -1,14 +1,22 @@
-from setuptools import setup, find_packages
+from distutils.core import setup
+import subprocess
+subprocess.run(["pandoc","--from=markdown","--to=rst","--output=README","README.md"])
+
+with open("README", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 setup(
     name='pyndas',
-    version='0.0.2',
-    packages=find_packages(),  # Pastikan ini sesuai dengan direktori yang ada
-    install_requires=['pymongo'],  # Tambahkan dependencies yang diperlukan
-    description='Library for MongoDB data transformation and redundancy removal',
+    version='0.0.3',
+    packages=['pyndas'],
+    install_requires=['pymongo', 'time'],  # Tambahkan dependencies yang diperlukan
     author='Mfaidiq',
+    author_email='faisalsidiq14@gmail.com',
+    description='Library for MongoDB data transformation and redundancy removal',
+    long_description=long_description,
     url="https://github.com/mfaisal-Ash/pyndas",
-    download_url = '',  
+    download_url='',
+    keywords = ['pyndas','py-ndas'],  
     classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
@@ -21,6 +29,7 @@ setup(
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
     'Programming Language :: Python :: 3.12',
     ],
