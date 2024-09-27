@@ -2,14 +2,14 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyndas',
-    version='0.0.3',
+    version='0.0.4',
     packages=['pyndas'], # 
     install_requires=['pymongo','time'],  # Tambahkan dependencies yang diperlukan
     author='Mfaidiq',
     author_email='faisalsidiq14@gmail.com',
     description='Library for MongoDB data transformation and redundancy removal',
     url="https://github.com/mfaisal-Ash/pyndas",
-    download_url='https://github.com/mfaisal-Ash/pyndas/archive/refs/tags/v0.0.3.tar.gz',
+    download_url='https://github.com/mfaisal-Ash/pyndas/archive/refs/tags/v0.0.4.tar.gz',
     keywords = ['pyndas','py-ndas'],  
     classifiers=[
     'Development Status :: 3 - Alpha',
