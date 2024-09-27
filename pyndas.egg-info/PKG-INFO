@@ -22,4 +22,5 @@ Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11
 Classifier: Programming Language :: Python :: 3.12
 License-File: LICENSE
-Requires-Dist: pyndas
+Requires-Dist: pymongo
+Requires-Dist: time
