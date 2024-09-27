@@ -4,7 +4,7 @@ setup(
     name='pyndas',
     version='0.0.4',
     packages=['pyndas'], # 
-    install_requires=['pymongo','time'],  # Tambahkan dependencies yang diperlukan
+    install_requires=[],  # Tambahkan dependencies yang diperlukan
     author='Mfaidiq',
     author_email='faisalsidiq14@gmail.com',
     description='Library for MongoDB data transformation and redundancy removal',
