@@ -21,5 +21,3 @@ Classifier: Programming Language :: Python :: 3.9
 Classifier: Programming Language :: Python :: 3.11
 Classifier: Programming Language :: Python :: 3.12
 License-File: LICENSE
-Requires-Dist: pymongo
-Requires-Dist: time
